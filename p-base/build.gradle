@@ -1,0 +1,5 @@
+apply from: rootProject.file('plugin.gradle')
+
+dependencies {
+    implementation deps.third.common_io
+}
